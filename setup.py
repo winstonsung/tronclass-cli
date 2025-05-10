@@ -10,7 +10,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="tronclass-cli",
-    version=tronclass_cli.__version__,
+    version='0.1.0',
     author="Howyoung Zhou",
     author_email="howyoungzhou@yahoo.com",
     description="Command-line interface for Tronclass.",
