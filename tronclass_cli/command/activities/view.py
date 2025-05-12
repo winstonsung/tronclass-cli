@@ -1,4 +1,4 @@
-from yaml import dump, CDumper as Dumper
+from yaml import dump, Dumper as Dumper
 
 from tronclass_cli.command import Command
 from tronclass_cli.middleware.api import ApiMiddleware
