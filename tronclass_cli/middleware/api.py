@@ -3,8 +3,8 @@ from tronclass_cli.middleware import Middleware
 from tronclass_cli.middleware.session import SessionMiddleware
 
 api_urls = {
-    'zju': 'https://courses.zju.edu.cn',
-    'tku': 'https://iclass.tku.edu.tw'
+    'tku': 'https://iclass.tku.edu.tw',
+    'zju': 'https://courses.zju.edu.cn'
 }
 
 
