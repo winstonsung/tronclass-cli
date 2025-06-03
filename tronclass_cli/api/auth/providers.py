@@ -1,6 +1,6 @@
 from tronclass_cli.api.auth.zjuam import ZjuamAuthProvider
-
-_auth_providers = {'zju': ZjuamAuthProvider}
+from tronclass_cli.api.auth.tkuam import TkuamAuthProvider
+_auth_providers = {'zju': ZjuamAuthProvider, 'tku': TkuamAuthProvider}
 
 
 def get_auth_provider(name):

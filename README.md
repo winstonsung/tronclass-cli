@@ -7,6 +7,7 @@ Tronclass CLI 可以让您使用命令行完成 Tronclass 平台有关的各项�
 支持的平台：
 
 - [学在浙大](http://courses.zju.edu.cn/)
+- [淡江大學](https://iclass.tku.edu.tw)
 
 支持的功能：
 
