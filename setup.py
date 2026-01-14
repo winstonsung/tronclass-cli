@@ -11,7 +11,7 @@ with open('requirements.txt') as f:
 setuptools.setup(
     name="tronclass-cli",
     version=tronclass_cli.__version__,
-    author="Howyoung Zhou",
+    author="Zhou Haoyang",
     author_email="howyoungzhou@yahoo.com",
     description="Command-line interface for Tronclass.",
     long_description=long_description,
@@ -29,5 +29,5 @@ setuptools.setup(
             "tcc = tronclass_cli.__main__:main"
         ]
     },
-    python_requires='>=3.5',
+    python_requires='>=3.6',
 )
